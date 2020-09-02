@@ -1,5 +1,5 @@
 # Calculadora do Theuzin
-
+# Menu Inicial
 print('**************************************************')
 print('*       BEM VINDO A CALCULADORA DO THEUZIN       *')
 print('*------------------------------------------------*')
@@ -11,7 +11,8 @@ print('*             4 - MULTIPLICACAO                  *')
 print('*             0 - SAIR DO SISTEMA                *')
 print('************************************************** \n \n')
 
-opcao = int(input('Qual operação você deseja fazer? 1/2/3/4/0 '))
+# Escolha da Opção
+opcao = int(input('Qual operação você deseja fazer?  '))
 
 if opcao == 1:
 	num1 = int(input('Digite o primeiro número: ')) 
@@ -35,3 +36,4 @@ elif opcao == 4:
 	print('O Resultado final foi : %d' %total)
 elif opcao == 0:
 	exit()
+else: print('Opção Inválida! ')
